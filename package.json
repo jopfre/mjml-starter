@@ -1,0 +1,27 @@
+{
+  "name": "mjml-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-mjml": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-mjml": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jopfre/mjml-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jopfre/mjml-starter/issues"
+  },
+  "homepage": "https://github.com/jopfre/mjml-starter#readme"
+}
