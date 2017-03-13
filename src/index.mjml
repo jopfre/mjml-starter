@@ -4,7 +4,7 @@
       <mj-section>
         <mj-column>
           <mj-text>
-            Dog
+            <h1>Test dog 2</h1>
           </mj-text>
         </mj-column>
       </mj-section>

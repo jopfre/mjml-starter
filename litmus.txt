@@ -1,0 +1,916 @@
+test id: 34345078
+<?xml version="1.0" encoding="UTF-8"?>
+<test_set>
+  <id type="integer">34345078</id>
+  <created_at type="dateTime">2017-03-12T13:32:12Z</created_at>
+  <updated_at type="dateTime">2017-03-12T13:32:12Z</updated_at>
+  <user_group_id type="integer" nil="true"/>
+  <share_code_analysis type="boolean" nil="true"/>
+  <share_subject_line type="boolean" nil="true"/>
+  <share_link_check type="boolean" nil="true"/>
+  <share_spam_filters type="boolean" nil="true"/>
+  <show_in_qa type="boolean">true</show_in_qa>
+  <name>2017-03-12</name>
+  <service>email</service>
+  <state>complete</state>
+  <public_sharing/>
+  <test_set_versions type="array">
+    <test_set_version>
+      <version type="integer">5</version>
+      <url_or_guid>ab25cc9768.api@emailtests.com</url_or_guid>
+      <received>true</received>
+      <source_url>https://s3.amazonaws.com/sitevista/f8220d32-7fb0-41ee-9b54-377c8ceab052</source_url>
+      <inline_css/>
+      <results type="array">
+        <result>
+          <id type="integer">1142508686</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:08:12Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:08:08Z</started_at>
+          <test_code>gmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">36</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508687</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:08:11Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:08:08Z</started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">37</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508688</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:08:11Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:08:08Z</started_at>
+          <test_code>chromegmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">38</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>chromegmailnew</application_code>
+            <application_long_name>Gmail (Chrome)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508689</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:08:12Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:08:08Z</started_at>
+          <test_code>iphone5s</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">39</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone5s</application_code>
+            <application_long_name>iPhone 5s (iOS 7)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/f8220d32-7fb0-41ee-9b54-377c8ceab052/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+    <test_set_version>
+      <version type="integer">4</version>
+      <url_or_guid>bfb5dab943.api@emailtests.com</url_or_guid>
+      <received>true</received>
+      <source_url>https://s3.amazonaws.com/sitevista/98700448-56bc-4538-9ab8-e1b62329091c</source_url>
+      <inline_css/>
+      <results type="array">
+        <result>
+          <id type="integer">1142508276</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:04:10Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:04:06Z</started_at>
+          <test_code>gmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">36</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508277</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:04:09Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:04:06Z</started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">37</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508278</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:04:08Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:04:06Z</started_at>
+          <test_code>chromegmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">38</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>chromegmailnew</application_code>
+            <application_long_name>Gmail (Chrome)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142508279</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T14:04:10Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T14:04:06Z</started_at>
+          <test_code>iphone5s</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">39</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone5s</application_code>
+            <application_long_name>iPhone 5s (iOS 7)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/98700448-56bc-4538-9ab8-e1b62329091c/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+    <test_set_version>
+      <version type="integer">3</version>
+      <url_or_guid>dc96be9f5d.api@emailtests.com</url_or_guid>
+      <received>true</received>
+      <source_url>https://s3.amazonaws.com/sitevista/e5a18981-a0f0-45c2-84ed-249bee63fed2</source_url>
+      <inline_css/>
+      <results type="array">
+        <result>
+          <id type="integer">1142505824</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:50Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:44Z</started_at>
+          <test_code>gmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">36</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505825</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:47Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:44Z</started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">37</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505826</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:47Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:44Z</started_at>
+          <test_code>chromegmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">38</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>chromegmailnew</application_code>
+            <application_long_name>Gmail (Chrome)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505827</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:48Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:44Z</started_at>
+          <test_code>iphone5s</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">39</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone5s</application_code>
+            <application_long_name>iPhone 5s (iOS 7)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/e5a18981-a0f0-45c2-84ed-249bee63fed2/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+    <test_set_version>
+      <version type="integer">2</version>
+      <url_or_guid>adafacc86b.api@emailtests.com</url_or_guid>
+      <received>true</received>
+      <source_url>https://s3.amazonaws.com/sitevista/d8c01775-fc16-4b75-ae1a-6829b4aeeda3</source_url>
+      <inline_css/>
+      <results type="array">
+        <result>
+          <id type="integer">1142505820</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:47Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:42Z</started_at>
+          <test_code>gmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">36</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505821</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:46Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:42Z</started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">37</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505822</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:46Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:42Z</started_at>
+          <test_code>chromegmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">38</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>chromegmailnew</application_code>
+            <application_long_name>Gmail (Chrome)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505823</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:39:47Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:39:42Z</started_at>
+          <test_code>iphone5s</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">39</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone5s</application_code>
+            <application_long_name>iPhone 5s (iOS 7)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/d8c01775-fc16-4b75-ae1a-6829b4aeeda3/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+    <test_set_version>
+      <version type="integer">1</version>
+      <url_or_guid>8f30d0bbaa.api@emailtests.com</url_or_guid>
+      <received>true</received>
+      <source_url>https://s3.amazonaws.com/sitevista/743fb75c-50ce-4a30-b48b-7e132c00ec96</source_url>
+      <inline_css/>
+      <results type="array">
+        <result>
+          <id type="integer">1142505351</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:32:25Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:32:13Z</started_at>
+          <test_code>gmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">36</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>gmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/gmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505352</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:32:16Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:32:13Z</started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">37</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>ffgmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/ffgmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505353</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:32:16Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:32:13Z</started_at>
+          <test_code>chromegmailnew</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">38</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>chromegmailnew</application_code>
+            <application_long_name>Gmail (Chrome)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-blocked-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-blocked-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>chromegmailnew.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/chromegmailnew-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <id type="integer">1142505354</id>
+          <check_state nil="true"/>
+          <finished_at type="dateTime">2017-03-12T13:32:18Z</finished_at>
+          <error_at type="dateTime" nil="true"/>
+          <started_at type="dateTime">2017-03-12T13:32:13Z</started_at>
+          <test_code>iphone5s</test_code>
+          <state>complete</state>
+          <result_type>email</result_type>
+          <rendered_html_url/>
+          <testing_application>
+            <average_time_to_process type="integer">39</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone5s</application_code>
+            <application_long_name>iPhone 5s (iOS 7)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+              <full_image>iphone5s.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/iphone5s-vertical-allowed-1366.png</full_image>
+              <thumbnail_image>iphone5s.capture.litmuscdn.com/743fb75c-50ce-4a30-b48b-7e132c00ec96/results/iphone5s-vertical-allowed-1366-thumb.png</thumbnail_image>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+  </test_set_versions>
+  <url_or_guid>ab25cc9768.api</url_or_guid>
+</test_set>
+
